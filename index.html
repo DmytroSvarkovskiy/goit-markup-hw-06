@@ -415,6 +415,7 @@
             <use href="./images/icon.svg#icon-close-black"></use>
           </svg>
         </button>
+                <!--ФОРМИ-->
                 <form class="form">
                     <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
                     <ul class="modal-list list">
@@ -456,14 +457,19 @@
             </li>
             <li class="modal-item">
               <input
-                class="modal-input agreement"
+                class="modal-input agreement visually-hidden"
                 type="checkbox"
                 id="agreement"
                 name="agreement"
               />
-              <label class="modal-label modal-agreement" for="agreement">
-                Соглашаюсь с рассылкой и принимаю
-                <a class="modal-agreement-link" href=""> Условия договора</a>
+
+              <label class="modal-label modal-agreement" for="agreement"
+                ><span class="icon-agreement"
+                  ><svg class="svg-agreement" width="11" height="8">
+                    <use href="./images/icon.svg#icon-vector-check"></use></svg
+                ></span>
+                &nbsp;Соглашаюсь с рассылкой и принимаю&nbsp;
+                <a class="modal-agreement-link" href="">Условия договора</a>
               </label>
                         </li>
                     </ul>
