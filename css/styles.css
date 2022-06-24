@@ -261,7 +261,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     width: 528px;
-    min-height: 581px;
+    height: 581px;
     padding: 40px;
     background-color: var(--main-color-background);
     border-radius: 4px;
@@ -697,11 +697,8 @@ img {
 
 .footer {
     background-color: var(--hunter-footer-backg-color);
-}
-
-.adress-box {
-    padding-bottom: 60px;
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .logo.footer {
@@ -782,7 +779,7 @@ img {
 
 .adress-soc {
     margin-left: 70px;
-    padding-top: 75px;
+    padding-top: 15px;
 }
 
 .soc-footer-icon {
@@ -799,7 +796,7 @@ img {
 /* ---------------INPUT FOOTER------------ */
 
 .footer-input-form {
-    padding-top: 75px;
+    padding-top: 15px;
     margin-left: 93px;
 }
 
