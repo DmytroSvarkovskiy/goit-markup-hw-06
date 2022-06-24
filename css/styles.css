@@ -453,6 +453,10 @@ img {
     fill: var(--main-color-background);
 }
 
+.agreement:focus+.modal-agreement .icon-agreement {
+    border-color: var(--accent-color);
+}
+
 
 /*------------------Преимущества*-------------------*/
 
