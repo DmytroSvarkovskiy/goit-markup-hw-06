@@ -742,6 +742,7 @@ img {
 
 .conteiner.adress {
     display: flex;
+    justify-content: center;
 }
 
 .soc-text {
