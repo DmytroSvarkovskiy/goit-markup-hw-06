@@ -333,7 +333,7 @@ img {
     color: var(--primary-text-color);
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
 }
 
 .modal-agreement-link {
@@ -426,7 +426,6 @@ img {
 
 .modal-input:focus+.modal-svg {
     fill: var(--accent-color);
-    border: 0.2px solid #ffffff;
 }
 
 .icon-agreement {
