@@ -374,6 +374,7 @@ img {
     height: 120px;
     resize: none;
     padding: 12px 16px;
+    display: block;
 }
 
 .modal-input.comments::placeholder {
